@@ -29,6 +29,7 @@ namespace Ispit.Konzola
                 DateTime datumRodjenja = DateTime.Parse(Console.ReadLine());
                 Console.Write("Prosjek: ");
                 double prosjek = double.Parse(Console.ReadLine());
+
                 Ucenik ucenik = new Ucenik(ime, prezime, datumRodjenja, prosjek);
                 ucenici.Add(ucenik);
 
